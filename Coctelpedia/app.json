@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Coctelpedia",
+    "slug": "Coctelpedia",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./images/app.png",
+    "splash": {
+      "image": "./images/coctel.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#3D3D3D"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.deagle50.coctelpaediaRN",
+      "buildNumber": "1",
+      "appStoreUrl":"https://apps.apple.com/nz/app/hill-climb-racing-2/id1146465836"
+    },
+    "android":{
+      "package": "com.deagle50.coctelpaediaRN",
+      "versionCode": 1,
+      "playStoreUrl":"https://play.google.com/store/apps/details?id=com.fingersoft.hcr2&gl=ES"
+    }
+  }
+}
