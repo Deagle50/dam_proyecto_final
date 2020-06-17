@@ -202,7 +202,7 @@ class CoctelpediaFragment extends React.Component{
     showIosPickerOrderBy = () => {
         ActionSheetIOS.showActionSheetWithOptions(
           {
-              //The options to put on the list
+            //The options to put on the list
             options: [...this.state.ordenar]
           },
           (buttonIndex) => {
@@ -210,7 +210,7 @@ class CoctelpediaFragment extends React.Component{
                   orden:this.state.ordenar[buttonIndex]
               })
           },
-        );        
+        );
     }
 
     //iOS picker drink type

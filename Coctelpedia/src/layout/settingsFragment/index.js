@@ -74,7 +74,7 @@ class SettingsFragment extends React.Component{
 
         this.refs.toast.show('Gracias por tu valoración');
         //Request review from store. on iOS, Linking.openURL, on android, StoreReview.requestReview()
-        //Platform.OS==='ios'? Linking.openURL(constants.iosAppUrl+"?action=write-review"):StoreReview.requestReview()        
+        //Platform.OS==='ios'? Linking.openURL(constants.iosAppUrl+"?action=write-review"):StoreReview.requestReview()
     }
 
     postRatingToApi = (i) => {

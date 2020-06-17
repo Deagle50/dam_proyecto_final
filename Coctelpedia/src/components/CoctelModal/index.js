@@ -50,7 +50,7 @@ UNSAFE_componentWillMount(){
             onRequestClose={onCloseModal}
             transparent={true}
             animationType="slide"
-        >                    
+        >
             {/* Top view, transparent, to close modal onPress */}
             <View style={globalStyles.modalTopContainer}>
                 <TouchableOpacity onPress={onCloseModal} style={{height:"100%", width:"100%"}}>
